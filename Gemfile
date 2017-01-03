@@ -35,7 +35,8 @@ group :development, :test do
   # gem 'byebug'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
-  gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails', '3.3.2'
+  gem 'guard-rspec', '4.6.0'
 end
 
 group :development do
@@ -49,6 +50,7 @@ end
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
+  gem 'libnotify', '0.8.0'
 end
 
 group :production do
